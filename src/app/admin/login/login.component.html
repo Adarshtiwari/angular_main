@@ -1,0 +1,35 @@
+<p>login works!</p>
+<!-- <mat-label>Clearable input</mat-label>
+<input #phone matInput type="text">
+<button type="button" (click)="sendNotification(phone.value)">Call</button> -->
+<h1 mat-dialog-title>Add Product</h1>
+<div class="container">
+    <form [formGroup]="userform">
+        <mat-form-field appearance="outline">
+            <mat-label>Username</mat-label>
+            <input formControlName="Username" matInput placeholder="Username">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>password </mat-label>
+            <input formControlName="password" matInput placeholder="password">
+        </mat-form-field>
+
+
+
+        <!-- <mat-form-field appearance="outline">
+            <mat-label>Enter a date range</mat-label>
+            <input formControlName="date" matInput [matDatepicker]="picker">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+        </mat-form-field> -->
+
+
+
+    </form>
+
+</div>
+<div [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>close</button>
+    <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="login()">login</button>
+
+</div>

@@ -1,0 +1,10 @@
+<p>author works!</p>
+<ul>
+    <li *ngFor="let da of data">{{ da }}</li>
+
+</ul>
+
+<!-- <input (keyup.enter)="onkey($event)" /> -->
+<!-- <input #email (keyup.enter)="onkey(email.value)" /> -->
+<!-- <input [value]="email" (keyup.enter)="onkey()" /> -->
+<input [(ngModel)]="email" (keyup.enter)="onkey()" />

@@ -1,0 +1,30 @@
+{
+  "productList": [
+    {
+      "productName": "juice",
+      "category": "vegetable",
+      "freshness": "Brand new",
+      "price": 20,
+      "comment": "acha",
+      "id": 2
+    },
+    {
+      "productName": "slices",
+      "category": "fruit",
+      "freshness": "Brand new",
+      "price": 12,
+      "comment": "sa",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
